@@ -1,0 +1,54 @@
+{
+    "Dragonborn":
+    [
+        "Black",
+        "Blue", 
+        "Brass", 
+        "Bronze", 
+        "Copper",
+        "Gold",
+        "Green",
+        "Red",
+        "Silver",
+        "White"
+    ],
+    
+    "Dwarf":
+    [
+        "Hill",
+        "Mountain"
+    ],
+
+    "Elf":
+    [
+        "Drow",
+        "High",
+        "Wood"
+    ],
+
+    "Half Elf":
+    [
+        "N/A"
+    ],
+
+    "Half Orc":
+    [
+        "N/A"
+    ],
+
+    "Halfling":
+    [
+        "Lightfoot",
+        "Stout"
+    ],
+
+    "Human":
+    [
+        "N/A"
+    ],
+
+    "Tiefling":
+    [
+        "Bloodline of Asmodeus"
+    ]
+}
