@@ -1,4 +1,16 @@
 {
+    "Races":
+    [
+        "Dragonborn",
+        "Dwarf", 
+        "Elf", 
+        "Half Elf", 
+        "Half Orc",
+        "Halfling",
+        "Human",
+        "Tiefling"
+    ],
+
     "Dragonborn":
     [
         "Black",
@@ -21,7 +33,7 @@
 
     "Elf":
     [
-        "Drow",
+        "Dark",
         "High",
         "Wood"
     ],
@@ -49,6 +61,6 @@
 
     "Tiefling":
     [
-        "Bloodline of Asmodeus"
+        "N/A"
     ]
 }
