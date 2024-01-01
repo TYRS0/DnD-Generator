@@ -5,19 +5,75 @@
         "Female"
     ],
 
+    "Pools":
+    [
+        "Half Elf",
+        "Half Orc"
+    ],
+
     "Dragonborn Male":
     [
-        "N/A"
+        "Arjhan",
+        "Balasar",
+        "Bharash",
+        "Donaar",
+        "Ghesh",
+        "Heskan",
+        "Kriv",
+        "Medrash",
+        "Mehen",
+        "Nadarr",
+        "Pandjed",
+        "Patrin",
+        "Rhogar",
+        "Shamash",
+        "Shedinn",
+        "Tarhun",
+        "Torinn"
     ],
 
     "Dragonborn Female":
     [
-        "N/A"
+        "Akra",
+        "Biri",
+        "Daar",
+        "Farideh",
+        "Harann",
+        "Havilar",
+        "Jheri",
+        "Kava",
+        "Korinn",
+        "Mishann",
+        "Nala",
+        "Perra",
+        "Raiann",
+        "Sora",
+        "Surina",
+        "Thava",
+        "Uadjit"
     ],
 
     "Dragonborn Last":
     [
-        "N/A"
+        "Clethtinthiallor",
+        "Daardendrian",
+        "Delmirev",
+        "Drachedandion",
+        "Fenkenkabradon",
+        "Kepeshkmolik",
+        "Kerrhylon",
+        "Kimbatuul",
+        "Linxakasendalor",
+        "Myastan",
+        "Nemmonis",
+        "Norixius",
+        "Ophinshtalajiir",
+        "Prexijandilin",
+        "Shestendeliath",
+        "Turnuroth",
+        "Verthisathurgiesh",
+        "Yarjerit"
+
     ],
 
     "Dwarf Male":
@@ -181,29 +237,117 @@
         "Xiloscient (Goldpetal)"
     ],
 
-    "Half Elf Male":
+    "Gnome Male":
     [
-        "N/A"
+        "Alston",
+        "Alvyn",
+        "Boddynock",
+        "Brocc",
+        "Burgell",
+        "Dimble",
+        "Eldon",
+        "Erky",
+        "Fonkin",
+        "Frug",
+        "Gerbo",
+        "Gimble",
+        "Glim",
+        "Jebeddo",
+        "Kellen",
+        "Namfoodle",
+        "Orryn",
+        "Roondar",
+        "Seebo",
+        "Sindri",
+        "Warryn",
+        "Wrenn",
+        "Zook"
     ],
 
-    "Half Elf Female":
+    "Gnome Female":
     [
-        "N/A"
+        "Bimpnottin",
+        "Breena",
+        "Caramip",
+        "Carlin",
+        "Donella",
+        "Duvamil",
+        "Ella",
+        "Ellyjobell",
+        "Ellywick",
+        "Lilli",
+        "Loopmottin",
+        "Lorilla",
+        "Mardnap",
+        "Nissa",
+        "Nyx",
+        "Oda",
+        "Orla",
+        "Roywyn",
+        "Shamil",
+        "Tana",
+        "Waywocket",
+        "Zanna"
     ],
 
-    "Half Elf Last":
+    "Gnome Last":
     [
-        "N/A"
+        "Beren",
+        "Daergel",
+        "Folkor",
+        "Garrick",
+        "Nackle",
+        "Murnig",
+        "Ningel",
+        "Raulnor",
+        "Scheppen",
+        "Timbers",
+        "Turen"
+    ],
+
+    "Half Elf Race Pool":
+    [
+        "Human",
+        "Elf"
+    ],
+
+    "Half Orc Race Pool":
+    [
+        "Human",
+        "Half Orc"
     ],
 
     "Half Orc Male":
     [
-        "N/A"
+        "Dench",
+        "Feng",
+        "Gell",
+        "Henk",
+        "Holg",
+        "Imsh",
+        "Keth",
+        "Krusk",
+        "Mhurren",
+        "Ront",
+        "Shump",
+        "Thokk"
     ],
 
     "Half Orc Female":
     [
-        "N/A"
+        "Baggi",
+        "Emen",
+        "Engong",
+        "Kansif",
+        "Myev",
+        "Neega",
+        "Ovak",
+        "Ownka",
+        "Shautha",
+        "Shutha",
+        "Vola",
+        "Volen",
+        "Yevelda"
     ],
 
     "Half Orc Last":
@@ -346,32 +490,182 @@
         "Urth",
         "Vladislak",
         "Wen",
-        "Zasheir",
-        ""
+        "Zasheir"
     ],
 
     "Human Female":
     [
-        "N/A"
+        "Atala",
+        "Alethra",
+        "Amafrey",
+        "Arizima",
+        "Arveene",
+        "Bai",
+        "Balama",
+        "Betha",
+        "Cefrey",
+        "Ceiidil",
+        "Chao",
+        "Chathi",
+        "Dona",
+        "Esvele",
+        "Faila",
+        "Fyevarra",
+        "Hama",
+        "Hulmarra",
+        "Immith",
+        "Imzel",
+        "Jalana",
+        "Jasmal",
+        "Jhessail",
+        "Jia",
+        "Kara",
+        "Katernin",
+        "Kethra",
+        "Kerri",
+        "Lei",
+        "Luisa",
+        "Lureene",
+        "Mara",
+        "Marta",
+        "Mei",
+        "Meilil",
+        "Miri",
+        "Murithi",
+        "Natali",
+        "Navarra",
+        "Nephis",
+        "Nulara",
+        "Olga",
+        "Olma",
+        "Qiao",
+        "Quara",
+        "Rowan",
+        "Sefris",
+        "Seipora",
+        "Selise",
+        "Shandri",
+        "Shevarra",
+        "Shui",
+        "Silifrey",
+        "Tai",
+        "Tammith",
+        "Tana",
+        "Tessele",
+        "Thola",
+        "Umara",
+        "Vonda",
+        "Westra",
+        "Yasheira",
+        "Yuldra",
+        "Zasheida",
+        "Zolis",
+        "Zora"
     ],
 
     "Human Last":
     [
-        "N/A"
+        "Agosto",
+        "Amblecrown",
+        "Ankhalab",
+        "Anskuld",
+        "Astorio",
+        "Basha",
+        "Bersk",
+        "Brightwood",
+        "Buckman",
+        "Calabra",
+        "Chergoba",
+        "Chernin",
+        "Chien",
+        "Domine",
+        "Dotsk",
+        "Dumein",
+        "Dundragon",
+        "Dyernina",
+        "Evenwood",
+        "Falone",
+        "Fezim",
+        "Greycastle",
+        "Hahpet",
+        "Helder",
+        "Hornraven",
+        "Huang",
+        "Iltazyara",
+        "Jassan",
+        "Kao",
+        "Khalid",
+        "Kulenov",
+        "Kung",
+        "Lackman",
+        "Lao",
+        "Ling",
+        "Marivaldi",
+        "Marsk",
+        "Mei",
+        "Mostana",
+        "Murnyethara",
+        "Nathandem",
+        "Nemetsk",
+        "Pashar",
+        "Pin",
+        "Pisacar",
+        "Ramondo",
+        "Rein",
+        "Sepret",
+        "Shemov",
+        "Shin",
+        "Starag",
+        "Stayanoga",
+        "Stormwind",
+        "Sum",
+        "Tallstag",
+        "Tan",
+        "Ulmokina",
+        "Uuthrakt",
+        "Wan",
+        "Windrivver"
     ],
     
     "Tiefling Male":
     [
-        "N/A"
+        "Akmenos",
+        "Amnon",
+        "Barakas",
+        "Damakos",
+        "Ekemon",
+        "Iados",
+        "Kairon",
+        "Leucis",
+        "Melech",
+        "Mordai",
+        "Morthos",
+        "Pelaios",
+        "Skamos",
+        "Therai"
+
     ],
 
     "Tiefling Female":
     [
-        "N/A"
+        "Akta",
+        "Anakis",
+        "Bryseis",
+        "Criella",
+        "Damaia",
+        "Ea",
+        "Kallista",
+        "Lerissa",
+        "Makaria",
+        "Nemeia",
+        "Orianna",
+        "Phelaia",
+        "Rieta"
     ],
 
     "Tiefling Last":
     [
         "N/A"
+
     ]
 }
