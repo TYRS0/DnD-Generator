@@ -3,6 +3,12 @@ A WiP Customizable Random Character Generator for DnD 5e
 
 the plan is to be able to Make a almost complete Character sheet for player and NPC alike and have the ablity to add homebrew
 
+### Currently Generates
+- Name and Gender
+- Class
+- Race and Subrace
+- Stats (STR/DEX/CON/INT/WIS/CHA) With Racial buffs
+
 ### Goals
 *In no particular order*
 - Generate basic info (name, gender, Class, race, ect.)
