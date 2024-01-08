@@ -70,5 +70,56 @@
     "Tiefling":
     [
         "N/A"
-    ]
+    ],
+
+    "Strength":
+    {
+        "Mountain Dwarf": 2,
+        "Half Orc": 2,
+        "Dragonborn": 2,
+        "Human": 1
+    },
+
+    "Dexterity":
+    {
+        "Elf": 2,
+        "Forest Gnome": 1,
+        "Halfling": 2,
+        "Human": 1
+    },
+
+    "Constitution":
+    {
+        "Dwarf": 2,
+        "Half Orc": 1,
+        "Stout Halfling": 1,
+        "Human": 1,
+        "Rock Gnome": 1
+
+    },
+
+    "Intelligence":
+    {
+        "High Elf": 1,
+        "Tiefling": 1,
+        "Gnome": 2,
+        "Human": 1
+    },
+
+    "Wisdom":
+    {
+        "Hill Dwarf": 1,
+        "Human": 1,
+        "Wood Elf": 1
+    },
+
+    "Charisma":
+    {
+        "Half Elf": 2,
+        "Dragonborn": 1,
+        "Dark Elf": 1,
+        "Human": 1,
+        "Lightfoot Halfling": 1,
+        "Tiefling": 2
+    }
 }
