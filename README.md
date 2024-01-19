@@ -7,7 +7,7 @@ the plan is to be able to Make a almost complete Character sheet for player and 
 - Name and Gender
 - Class
 - Race and Subrace
-- Stats (STR/DEX/CON/INT/WIS/CHA) With Racial buffs
+- Stats with Modifiers (STR/DEX/CON/INT/WIS/CHA) and Racial Bonuses
 
 ### Goals
 *In no particular order*
@@ -28,5 +28,5 @@ this may take a bit because i am mostly self tought and find it difficult to rea
  
 you can add and edit the .json files as long as you follow the formatting
 - Classes.json Holds all classes for now
-- Names.json Holds Names based off of selected Race, *will crash if name does not exist for selected Race, will fix soon*
-- Races.json Holds all Races, Subraces, and Racial Stats. *will crash if Subrace does not exist for selected Race use N/A for no Subrace as seen is the file, will fix soon*
+- Names.json Holds Names based off of selected Race,
+- Races.json Holds all Races, Subraces, and Racial Stats.
