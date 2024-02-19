@@ -190,31 +190,45 @@ def Generate_Name():
 
     return First_Name, Last_Name, Gender
 
+Run = 1
+Ask = 1
+while Run == 1:
+    
+    #Generation
+    Class = Generate_Class()
+    Race, SubRace = Generate_Race()
+    First_Name, Last_Name, Gender = Generate_Name()
+    Strength, STR_Mod, Dexterity, DEX_Mod, Constitution, CON_Mod, Intelligence, INT_Mod, Wisdom, WIS_Mod, Charisma, CHA_Mod = Generate_Stats()
 
-#Generation
-Class = Generate_Class()
-Race, SubRace = Generate_Race()
-First_Name, Last_Name, Gender = Generate_Name()
-Strength, STR_Mod, Dexterity, DEX_Mod, Constitution, CON_Mod, Intelligence, INT_Mod, Wisdom, WIS_Mod, Charisma, CHA_Mod = Generate_Stats()
 
+    #Output
+    print (f"########################################")
+    if Last_Name == "N/A":
+        print (f"Name: {First_Name}")
+    else:
+        print (f"Name: {First_Name} {Last_Name}")
 
-#Output
-if Last_Name == "N/A":
-    print (f"Name: {First_Name}")
-else:
-    print (f"Name: {First_Name} {Last_Name}")
+    print (f"Gender: {Gender}")
 
-print (f"Gender: {Gender}")
+    if SubRace == "N/A":
+        print (f"Race: {Race}")
+    else:
+        print (f"Race: {SubRace} {Race}")
 
-if SubRace == "N/A":
-    print (f"Race: {Race}")
-else:
-    print (f"Race: {SubRace} {Race}")
-
-print (f"Class: {Class}")
-print (f"Str / {Strength} ({STR_Mod})")
-print (f"Dex / {Dexterity} ({DEX_Mod})")
-print (f"Con / {Constitution} ({CON_Mod})")
-print (f"Int / {Intelligence} ({INT_Mod})")
-print (f"Wis / {Wisdom} ({WIS_Mod})")
-print (f"Cha / {Charisma} ({CHA_Mod})")
+    print (f"Class: {Class}")
+    print (f"Str / {Strength} ({STR_Mod})")
+    print (f"Dex / {Dexterity} ({DEX_Mod})")
+    print (f"Con / {Constitution} ({CON_Mod})")
+    print (f"Int / {Intelligence} ({INT_Mod})")
+    print (f"Wis / {Wisdom} ({WIS_Mod})")
+    print (f"Cha / {Charisma} ({CHA_Mod})")
+    
+    while Ask == 1:
+        Again = input(f"Again? (Y/N) \n")
+        if Again in ["n","N"]:
+            Run = 0
+            Ask = 0
+        elif Again in ["y","Y"]:
+            break
+        else:
+            print (f"Invald Responce")
