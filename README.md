@@ -5,9 +5,10 @@ the plan is to be able to Make a almost complete Character sheet for player and 
 
 ### Currently Generates
 - Name and Gender
-- Class
+- Class and Level
 - Race and Subrace
-- Stats with Modifiers (STR/DEX/CON/INT/WIS/CHA) and Racial Bonuses
+- Stats with Modifiers, Racial Bonuses, and Ability Score Improvements (STR/DEX/CON/INT/WIS/CHA)
+  - Stats can currently Roll above 20, will be fixed at a later point
 
 ### Goals
 *In no particular order*
@@ -30,3 +31,14 @@ you can add and edit the .json files as long as you follow the formatting
 - Classes.json Holds all classes for now
 - Names.json Holds Names based off of selected Race,
 - Races.json Holds all Races, Subraces, and Racial Stats.
+
+<details>
+<summary><h2> Change Log </h2></summary>
+    <details>
+        <summary><h2> v0.0.9 </h2></summary>
+        <ul>
+            <li> Added Level to Class generation </li>
+            <li> Added Ability Score Improvements to Stat generation </li>
+        </ul>
+    </details>
+</details>

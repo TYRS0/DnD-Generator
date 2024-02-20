@@ -25,7 +25,8 @@ def Generate_Class():
     #Gets the length of the Class List and randomly picks one
     Class_Length = (len(Class_List)-1)
     Class = (Class_List[randint(0,Class_Length)])
-    return Class
+    Level = randint(1,20)
+    return Class, Level
 
 def Generate_Race():
     #Declaring Variables
@@ -65,12 +66,14 @@ def Generate_Race():
 def Generate_Stats():
     #Declaring Variables
     x = 0
+    l = 0
     STR_Bonus = 0
     DEX_Bonus = 0
     CON_Bonus = 0
     INT_Bonus = 0
     WIS_Bonus = 0
     CHA_Bonus = 0
+    Level_Bonus_Loop = 0
     Strength_Bonus_Dictionary = {}
     Dexterity_Bonus_Dictionary = {}
     Constitution_Bonus_Dictionary = {}
@@ -85,6 +88,34 @@ def Generate_Stats():
     #Checks for files in the Race Folder and errors if no file are found
     if Race_Dir_Length < 1:
         raise FileNotFoundError("No files found in Races directory")
+    
+    if Level >= 4:
+        Level_Bonus_Loop =  Level_Bonus_Loop + 2
+    if Level >= 8:
+        Level_Bonus_Loop =  Level_Bonus_Loop + 2
+    if Level >= 12:
+        Level_Bonus_Loop =  Level_Bonus_Loop + 2 
+    if Level >= 16:
+        Level_Bonus_Loop =  Level_Bonus_Loop + 2
+    if Level >= 20:
+        Level_Bonus_Loop =  Level_Bonus_Loop + 2
+        
+    while l != Level_Bonus_Loop:
+        Stat = Stat_Loop_List[randint(0,5)]
+        print (Stat)
+        if Stat == "Strength":
+            STR_Bonus = STR_Bonus + 1
+        if Stat == "Dexterity":
+            STR_Bonus = STR_Bonus + 1
+        if Stat == "Constitution":
+            STR_Bonus = STR_Bonus + 1
+        if Stat == "Intelligence":
+            STR_Bonus = STR_Bonus + 1
+        if Stat == "Wisdom":
+            STR_Bonus = STR_Bonus + 1
+        if Stat == "Charisma":
+            STR_Bonus = STR_Bonus + 1
+        l = l + 1
     
     #Opens and loads all files into a six sepreate Stat Dictionarys
     while x != Race_Dir_Length:
@@ -195,7 +226,7 @@ Ask = 1
 while Run == 1:
     
     #Generation
-    Class = Generate_Class()
+    Class, Level = Generate_Class()
     Race, SubRace = Generate_Race()
     First_Name, Last_Name, Gender = Generate_Name()
     Strength, STR_Mod, Dexterity, DEX_Mod, Constitution, CON_Mod, Intelligence, INT_Mod, Wisdom, WIS_Mod, Charisma, CHA_Mod = Generate_Stats()
@@ -216,6 +247,7 @@ while Run == 1:
         print (f"Race: {SubRace} {Race}")
 
     print (f"Class: {Class}")
+    print (f"LV: {Level}")
     print (f"Str / {Strength} ({STR_Mod})")
     print (f"Dex / {Dexterity} ({DEX_Mod})")
     print (f"Con / {Constitution} ({CON_Mod})")
